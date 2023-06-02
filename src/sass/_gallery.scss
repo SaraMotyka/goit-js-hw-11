@@ -1,0 +1,30 @@
+body {
+  background-color: #ddcdbb;
+}
+.gallery-container {
+  padding: 10px;
+  margin: auto auto;
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  grid: 30px;
+}
+
+.load-more {
+  display: none;
+}
+
+.gallery {
+  margin: 0, auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 10px) / 3);
+}
+.gallery__picture {
+  width: 300px;
+  max-height: 600px;
+}
+.info-item {
+  font-family: 'Courier New', Courier, monospace;
+}
