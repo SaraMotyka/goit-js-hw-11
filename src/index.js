@@ -150,7 +150,7 @@ function createGallery(e) {
         gallery.insertAdjacentHTML('beforeend', galleryToPublish);
         simpleLightbox = new SimpleLightbox('.gallery').refresh();
         if (response.data.totalHits > 40) {
-          loading.classList.remove('hidden');
+          loadBtn.classList.remove('hidden');
         }
       }
     })
